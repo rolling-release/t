@@ -1,0 +1,1 @@
+import{b as t,A as a,p as r}from"./settings-ec2c2194.js";async function i(e){try{return await t.runtime.sendMessage({...a,content:e})!==!1}catch(s){return!0}}function c(e){t.runtime.onMessage.addListener(async s=>{const n=r(s);if(n&&n.id===a.id)return await e(n.content)})}export{c as a,i as s};

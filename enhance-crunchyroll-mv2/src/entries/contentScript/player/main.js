@@ -1,0 +1,1 @@
+(async()=>{await import(chrome.runtime.getURL("assets/src/entries/contentScript/player/main-b14f2019.js"))})();
